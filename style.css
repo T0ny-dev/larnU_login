@@ -1,0 +1,96 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('asset/img/login-background-2.9efad942.png');
+  background-size: cover;
+  background-position: center;
+}
+
+/*header   */
+.header {
+  height: 20vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.logoheader{
+  height: 90px;
+  width: 90px;
+  background-image: url('asset/img/alien_icon.png');
+  background-size: cover;
+  border-radius: 100%;
+}
+
+/*form   */
+
+.sectionform {
+  height: 60vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  margin-top: 50px;
+  width: 320px;
+  height: 217px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  padding: 1%;
+  border-radius: 20px;
+}
+
+.label {
+  font-size: 15px;
+  color: #000000D9;
+}
+
+.controls {
+  width: 85%;
+  margin: 6px 0 6px;
+  padding: 8.5px;
+  border-radius: 8px;
+  border: 1px solid rgb(221, 221, 221);
+  font-size: 15px;
+}
+
+.controls::placeholder {
+  color: rgb(190, 190, 190)
+  
+}
+
+.button {
+  width: 85%;
+  padding: 8px;
+  background-color: #5643c1;
+  color: #fff;
+  border: none;
+  font-family:'Poppins', sans-serif ;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 8px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.recoverpass {
+  font-size: 14px;
+  margin-top: 5px;
+  font-family:'Poppins', sans-serif ; 
+  color: #999;
+}
+
+.recoverpass a {
+  color: #1890ff;
+}
